@@ -76,11 +76,11 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/coolsnowwolf/packages.git package/cnpackages
-        git clone https://github.com/coolsnowwolf/luci.git package/cnluci
-        git clone routing https://git.openwrt.org/feed/routing.git package/oprouting
-        git clone telephony https://git.openwrt.org/feed/telephony.git package/optelephony
-        git clone freifunk https://github.com/freifunk/openwrt-packages.git package/freifunk
+        #git clone https://github.com/coolsnowwolf/packages.git package/cnpackages
+        #git clone https://github.com/coolsnowwolf/luci.git package/cnluci
+        #git clone routing https://git.openwrt.org/feed/routing.git package/oprouting
+        #git clone telephony https://git.openwrt.org/feed/telephony.git package/optelephony
+        #git clone freifunk https://github.com/freifunk/openwrt-packages.git package/freifunk
         
         #git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol
         #git clone https://github.com/fw876/helloworld.git package/helloworld
